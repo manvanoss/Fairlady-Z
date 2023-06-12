@@ -1,0 +1,13 @@
+body{
+  font-family: 'Aoboshi One', serif;
+  font-family: 'Righteous', cursive;
+  }
+
+.navbar{
+  background-color: #2B2A4C;
+  padding:0 100px;
+  height: 60px;
+}
+.navbar .nav-link {
+    color: white;
+  }
