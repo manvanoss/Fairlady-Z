@@ -11,3 +11,116 @@ body{
 .navbar .nav-link {
     color: white;
   }
+
+#home{
+  margin-bottom: 50px;
+  background-color: #917FB3;
+  color: white;
+  height: 14em; 
+  font-size: 2.3em;
+}
+
+#home h1{
+  font-size: 2.3em;
+}
+
+#home .row{
+  display: flex;
+}
+
+#home-description {
+  padding-top: 60px;
+
+}
+#home-image {
+  padding: 5em 0em 0em 5em;
+}
+
+#home-btn {
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 1.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+ }
+ 
+ #home-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ #home-btn:hover {
+  color: #fff;
+ }
+ 
+ #home-btn:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ #home-btn:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ #home-btn:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+ }
+
+
+ #Gallery{
+  margin-bottom: 50px;
+ }
+
+#Contact_us{
+  margin-bottom: 50px;
+}
+
+ #Contact_us-form{
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+ }
+
+ #contact_image{
+  position:relative; 
+  left: 75px; 
+  top:2px;
+ }
+
+ #contact_form{
+  position:relative; 
+  top: 45px;
+ }
+
+
+footer{
+  text-align: center;
+}
+
+ .text-muted {
+  --bs-text-opacity: 1;
+  color: rgb(255 255 255)!important;
+}
+
+
+
